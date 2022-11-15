@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
+import DotGroup from "./components/DotGroup";
+import useMediaQuery from "./hooks/useMediaQuery";
 
 function App() {
 
   const [selectedPage, setSelectedPage] = useState("home");
   const [isTopOfPage, setIsTopOfPage] = useState(true);
+  const isDesktop = useMediaQuery("(min-width: 1060px)");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,6 +28,14 @@ function App() {
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
       />
+       <div className="w-5/6 mx-auto md:h-full">
+        {isDesktop && (
+          <DotGroup
+            selectedPage={selectedPage}
+            setSelectedPage={setSelectedPage}
+          />
+        )}
+        </div>
        
     </div>
   );
