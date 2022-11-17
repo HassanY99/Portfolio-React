@@ -5,6 +5,7 @@ import useMediaQuery from "./hooks/useMediaQuery";
 import Home from "./components/Home";
 import Skills from "./components/Skills";
 import LineGradient from "./components/LineGradient";
+import Projects from "./components/Projects";
 
 function App() {
 
@@ -46,6 +47,11 @@ function App() {
       <div className="w-5/6 mx-auto md:h-full ">
         <Skills />
         </div>
+
+        <LineGradient />
+      <div className="w-5/6 mx-auto">
+          <Projects />
+      </div>
        
     </div>
   );
