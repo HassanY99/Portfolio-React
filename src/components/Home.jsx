@@ -19,7 +19,7 @@ const Home = ({ setSelectedPage }) => {
             >
               <img
                 alt="profile"
-                className="hover:filter hover:scale-90 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px] rounded-full object-contain"
+                className="hover:filter hover:scale-90 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px] rounded-full w-68 h-96"
                 src="assets/hydev.PNG"
               />
             </div>

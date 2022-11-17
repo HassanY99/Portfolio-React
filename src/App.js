@@ -3,12 +3,15 @@ import Navbar from "./components/Navbar";
 import DotGroup from "./components/DotGroup";
 import useMediaQuery from "./hooks/useMediaQuery";
 import Home from "./components/Home";
+import Skills from "./components/Skills";
+import LineGradient from "./components/LineGradient";
 
 function App() {
 
   const [selectedPage, setSelectedPage] = useState("home");
   const [isTopOfPage, setIsTopOfPage] = useState(true);
   const isDesktop = useMediaQuery("(min-width: 1060px)");
+  
 
   useEffect(() => {
     const handleScroll = () => {
@@ -37,6 +40,11 @@ function App() {
           />
         )}
         <Home setSelectedPage={setSelectedPage} />
+        </div>
+
+        <LineGradient />
+      <div className="w-5/6 mx-auto md:h-full ">
+        <Skills />
         </div>
        
     </div>
