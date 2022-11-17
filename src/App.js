@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Skills from "./components/Skills";
 import LineGradient from "./components/LineGradient";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 function App() {
 
@@ -51,6 +52,11 @@ function App() {
         <LineGradient />
       <div className="w-5/6 mx-auto">
           <Projects />
+      </div>
+
+      <LineGradient />
+      <div className="w-5/6 mx-auto md:h-full">
+          <Contact />
       </div>
        
     </div>
