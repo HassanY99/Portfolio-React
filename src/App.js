@@ -9,6 +9,10 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
+import "swiper/swiper.min.css";
+
+import 'swiper/swiper-bundle.min.css'
+
 function App() {
 
   const [selectedPage, setSelectedPage] = useState("home");

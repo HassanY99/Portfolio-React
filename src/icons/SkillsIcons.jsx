@@ -1,6 +1,6 @@
 const SkillsIcons = () => {
     return (
-      <div className="flex justify-center md:justify-start my-10 gap-7 grid grid-cols-5">
+      <div className="flex justify-center md:justify-start my-10 gap-7 grid grid-cols-4">
         <div
           className="hover:opacity-50 transition duration-500"
         >
