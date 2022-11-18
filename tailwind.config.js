@@ -16,7 +16,7 @@ module.exports = {
         'gray': '#8492a6',
         "dark-grey": "#757575",
         "opaque-black": "rgba(0,0,0,0.35)",
-        'bubble-gum': '#ff77e9'
+        'baby-blue': '#9DBED1'
       },
       backgroundImage: (theme) => ({
         "gradient-rainbow":
@@ -24,6 +24,9 @@ module.exports = {
 
         "gradient-rainblue":
           "linear-gradient(90deg, #24CBFF 14.53%, #FC59FF 69.36%, #FFBD0C 117.73%)",
+
+          "gradient-colorful":
+          "linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d)",
       }),
       fontFamily: {
         playfair: ["Playfair Display", "serif"],

@@ -15,22 +15,6 @@ const projectVariant = {
   visible: { opacity: 1, scale: 1 },
 };
 
-const Project = ( {title, description, image} ) => {
-  const overlayStyles = `absolute h-22 w-50 opacity-80
-    bg-black z-30 flex flex-col justify-center items-center text-center p-3 text-grey border-solid border-2 border-red rounded-2xl`;
-  const projectTitle = title.split(" ").join("-").toLowerCase();
-
-  return (
-    <motion.div  className="relative">
-      <img src={`../assets/${image}.jpeg`} alt="project-1" />
-      <br />
-      <div className={overlayStyles}>
-        <p className="text-2xl font-playfair">{title}</p>
-        <p className="mt-3 font-opensans">{description}</p>
-      </div>
-    </motion.div>
-  );
-};
 
 const Projects = () => {
   return (
@@ -56,29 +40,69 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          These are all my projects.
+          Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
+          fames odio in at. At magna ornare dictum lectus. Purus massa morbi
+          purus nec eget eleifend ut elit.
         </p>
       </motion.div>
 
       {/* PROJECTS */}
-      <div className="flex justify-center ">
+      <div className="flex justify-center">
         <motion.div
           className="sm:grid sm:grid-cols-3"
           variants={container}
+          initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
-          {/* ROW 1 */}
-          <div className="p-2">
-          <Project title="Password Manager" description="This is password manager app built to save all your passwords securely." image="project-1"/>
-          </div>
-          <div className="p-2">
-          <Project title="Weather Dashboard" description="This is weather dashboard app built to save all your passwords securely." image="project-3"/>
-          </div>
-          <div className="p-2">
-          <Project title="Password Generator" description="This is weather dashboard app built to save all your passwords securely." image="project-5"/>
+          <div class="p-4">
+              <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                  <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                  <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt=""/>
+                  </a>
+                  <div class="p-6">
+                  <h5 class="text-gray text-xl font-medium mb-2">Card title</h5>
+                  <p class="text-gray text-base mb-4">
+                      Some quick example text to build on the card title and make up the bulk of the card's
+                      content.
+                  </p>
+                  <button type="button" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                  </div>
+              </div>
           </div>
 
+          <div class="p-4">
+              <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                  <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                  <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt=""/>
+                  </a>
+                  <div class="p-6">
+                  <h5 class="text-gray text-xl font-medium mb-2">Card title</h5>
+                  <p class="text-gray text-base mb-4">
+                      Some quick example text to build on the card title and make up the bulk of the card's
+                      content.
+                  </p>
+                  <button type="button" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                  </div>
+              </div>
+          </div>
+
+          <div class="p-4">
+              <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                  <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                  <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt=""/>
+                  </a>
+                  <div class="p-6">
+                  <h5 class="text-gray text-xl font-medium mb-2">Card title</h5>
+                  <p class="text-gray text-base mb-4">
+                      Some quick example text to build on the card title and make up the bulk of the card's
+                      content.
+                  </p>
+                  <button type="button" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                  </div>
+              </div>
+          </div>
+          
         </motion.div>
       </div>
     </section>
@@ -86,3 +110,80 @@ const Projects = () => {
 };
 
 export default Projects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const Projects = () => {
+//     return (
+//       <section id="projects" className="flex flex-row py-40 ">
+  
+        //    <div class="p-4">
+        //       <div class="rounded-lg shadow-lg bg-white max-w-sm">
+        //           <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+        //           <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt=""/>
+        //           </a>
+        //           <div class="p-6">
+        //           <h5 class="text-gray text-xl font-medium mb-2">Card title</h5>
+        //           <p class="text-gray text-base mb-4">
+        //               Some quick example text to build on the card title and make up the bulk of the card's
+        //               content.
+        //           </p>
+        //           <button type="button" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+        //           </div>
+        //       </div>
+        //   </div>
+  
+//           <div class="p-4">
+//               <div class="rounded-lg shadow-lg bg-white max-w-sm">
+//                   <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+//                   <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt=""/>
+//                   </a>
+//                   <div class="p-6">
+//                   <h5 class="text-gray text-xl font-medium mb-2">Card title</h5>
+//                   <p class="text-gray text-base mb-4">
+//                       Some quick example text to build on the card title and make up the bulk of the card's
+//                       content.
+//                   </p>
+//                   <button type="button" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+//                   </div>
+//               </div>
+//           </div>
+  
+//           <div class="p-4">
+//               <div class="rounded-lg shadow-lg bg-white max-w-sm">
+//                   <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+//                   <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/182.jpg" alt=""/>
+//                   </a>
+//                   <div class="p-6">
+//                   <h5 class="text-gray text-xl font-medium mb-2">Card title</h5>
+//                   <p class="text-gray text-base mb-4">
+//                       Some quick example text to build on the card title and make up the bulk of the card's
+//                       content.
+//                   </p>
+//                   <button type="button" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+//                   </div>
+//               </div>
+//           </div>
+        
+//       </section>
+//     );
+//   };
+  
+//   export default Projects;

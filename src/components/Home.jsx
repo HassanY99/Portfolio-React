@@ -15,12 +15,12 @@ const Home = ({ setSelectedPage }) => {
         <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">
           {isAboveLarge ? (
             <div
-              className="relative z-0 ml-20 before:absolute before:-top-5 before:-right-7 before:rounded-full
-              before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-blue before:z-[-1]"
+              className="relative z-0 ml-20 before:absolute before:left-[-2%] before:top-[-2%] before:rounded-full
+              before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-baby-blue before:z-[-1]"
             >
               <img
                 alt="profile"
-                className="hover:filter hover:scale-90 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px] rounded-full w-68 h-96"
+                className="hover:filter hover:scale-90 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px] rounded-full "
                 src="assets/hydev.PNG"
               />
             </div>
@@ -86,7 +86,7 @@ const Home = ({ setSelectedPage }) => {
           }}
         >
           <a
-            className="bg-gradient-to-r from-indigo-500 to-teal-500 hover:from-pink-500 hover:to-orange-500 text-deep-blue rounded-sm py-3 px-7 font-semibold
+            className="bg-gradient-to-r from-indigo-500 to-teal-500 hover:bg-gradient-colorful text-deep-blue rounded-sm py-3 px-7 font-semibold
              hover:text-white transition duration-500"
              target="_blank"
             href="https://drive.google.com/file/d/15UyieGY8xrOnrKhXeZ_pondiRDXmUJap/view?usp=sharing" rel="noreferrer"
@@ -94,7 +94,7 @@ const Home = ({ setSelectedPage }) => {
             Resume
           </a>
           <AnchorLink
-            className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
+            className="rounded-r-sm bg-gradient-colorful py-0.5 pr-0.5"
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >
