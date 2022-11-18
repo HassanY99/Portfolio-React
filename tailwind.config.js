@@ -9,13 +9,14 @@ module.exports = {
       colors: {
         "deep-blue": "#010026",
         blue: "#2CBCE9",
-        red: "#DC4492",
+        red: "#C62420",
         yellow: "#FDCC49",
         grey: "#ededed",
-        turq: "#22d3ee",
+        turq: "#01949A",
         'gray': '#8492a6',
         "dark-grey": "#757575",
         "opaque-black": "rgba(0,0,0,0.35)",
+        'bubble-gum': '#ff77e9'
       },
       backgroundImage: (theme) => ({
         "gradient-rainbow":

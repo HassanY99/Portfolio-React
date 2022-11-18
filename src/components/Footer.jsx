@@ -26,7 +26,7 @@ const Footer = () => {
 
 
   return (
-    <footer className="h-64 bg-teal-500 pt-10">
+    <footer className="h-64 bg-turq pt-10">
         
         <div className="flex justify-center">
         <button >

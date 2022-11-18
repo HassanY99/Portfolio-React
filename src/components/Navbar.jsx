@@ -1,14 +1,14 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
 
 const Link = ({ page, selectedPage, setSelectedPage }) => {
   const lowerCasePage = page.toLowerCase();
+
   return (
     <AnchorLink
       className={`${
-        selectedPage === lowerCasePage ? "text-yellow" : ""
-      } hover:text-yellow transition duration-500`}
+        selectedPage === lowerCasePage ? "text-yellow" : ""} hover:text-yellow transition duration-500`}
       href={`#${lowerCasePage}`}
       onClick={() => setSelectedPage(lowerCasePage)}
     >
@@ -20,7 +20,8 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
 const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
   const isDesktop = useMediaQuery("(min-width: 768px)");
-  const navbarBackground = isTopOfPage ? "" : "bg-teal-500";
+  const navbarBackground = isTopOfPage ? "" : "bg-turq";
+  
 
   return (
     <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-6`}>

@@ -2,6 +2,7 @@ import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import SocialMediaIcons from "../icons/SocialMediaIcons";
+import Typewriter from "typewriter-effect";
 
 const Home = ({ setSelectedPage }) => {
     const isAboveLarge = useMediaQuery("(min-width: 1060px)");
@@ -14,7 +15,7 @@ const Home = ({ setSelectedPage }) => {
         <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">
           {isAboveLarge ? (
             <div
-              className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-full
+              className="relative z-0 ml-20 before:absolute before:-top-5 before:-right-7 before:rounded-full
               before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-blue before:z-[-1]"
             >
               <img
@@ -46,12 +47,24 @@ const Home = ({ setSelectedPage }) => {
           }}
         >
           <p className="text-6xl font-playfair z-10 text-center md:text-start">
-            Hassan {""}
+          Hi! I'm <span className="text-turq">Hassan</span>
             <span
-              className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
+              className="xs:relative xs:text-red xs:font-semibold z-20
               before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
             >
-              Yusuf
+                <Typewriter
+  
+                onInit={(typewriter)=> {
+
+                typewriter
+                
+                .typeString(`Web Developer`)
+                    
+                    //    .pauseFor(1000)
+                    //    .deleteChars(18)
+                .start();
+                }}
+                />
             </span>
           </p>
 
@@ -72,14 +85,14 @@ const Home = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <AnchorLink
-            className="bg-gradient-to-r from-teal-500 to-indigo-500 hover:from-pink-500 hover:to-orange-500 text-deep-blue rounded-sm py-3 px-7 font-semibold
+          <a
+            className="bg-gradient-to-r from-indigo-500 to-teal-500 hover:from-pink-500 hover:to-orange-500 text-deep-blue rounded-sm py-3 px-7 font-semibold
              hover:text-white transition duration-500"
-            onClick={() => setSelectedPage("contact")}
-            href="#contact"
+             target="_blank"
+            href="https://drive.google.com/file/d/15UyieGY8xrOnrKhXeZ_pondiRDXmUJap/view?usp=sharing" rel="noreferrer"
           >
-            Contact Me
-          </AnchorLink>
+            Resume
+          </a>
           <AnchorLink
             className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
             onClick={() => setSelectedPage("contact")}
