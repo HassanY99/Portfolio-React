@@ -9,10 +9,6 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
-import "swiper/swiper.min.css";
-
-import 'swiper/swiper-bundle.min.css'
-
 function App() {
 
   const [selectedPage, setSelectedPage] = useState("home");
@@ -22,11 +18,20 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY === 0) {
+      if (window.scrollY >= 1938) {
+        setIsTopOfPage(false);
+        setSelectedPage("contact");
+      } else if (window.scrollY >= 900) {
+        setIsTopOfPage(false);
+        setSelectedPage("projects");
+      } else if(window.scrollY >= 500) {
+        setIsTopOfPage(false);
+        setSelectedPage("skills");
+      } else if (window.scrollY === 0) {
         setIsTopOfPage(true);
         setSelectedPage("home");
-      } 
-      if (window.scrollY !== 0) setIsTopOfPage(false);
+      }
+        
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
