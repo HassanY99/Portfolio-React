@@ -27,7 +27,7 @@ const Home = ({ setSelectedPage }) => {
           ) : (
             <img
               alt="profile"
-              className="z-10 w-full max-w-[400px] md:max-w-[600px]"
+              className="z-10 w-full max-w-[250px] md:max-w-[250px]"
               src="assets/hydev.PNG"
             />
           )}
@@ -69,7 +69,8 @@ const Home = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            I am a Full Stack Web developer from NYC. I love to code and solve problems. 
+            I am a Full-Stack Web Developer with enthusiasm and focus on building scalable applications. I am passionate about building reliable software, creating effective solutions and 
+            learning new things everyday to grow professionally in my field.
           </p>
         </motion.div>
 

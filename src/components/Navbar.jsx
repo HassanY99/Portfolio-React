@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
 
@@ -17,12 +17,10 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
   );
 };
 
-
-
 const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
   const isDesktop = useMediaQuery("(min-width: 768px)");
-  const navbarBackground = isTopOfPage ? "" : "bg-turq";
+  const navbarBackground = isTopOfPage ? "" : "bg-deep-blue";
   
 
   return (
