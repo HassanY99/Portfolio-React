@@ -1,5 +1,6 @@
 import { useState } from "react";
-import {FaArrowUp} from 'react-icons/fa';
+import {FaChevronUp} from 'react-icons/fa';
+import { motion } from "framer-motion";
 
 const Footer = () => {
 
@@ -28,18 +29,28 @@ const Footer = () => {
   return (
     <footer className="h-64 bg-turq pt-10">
         
+        <motion.div
+          initial={{ x: 0 }}
+          animate={{ y: [12, 15, 12, 15, 12, 15, 12, 15, 12, 15, 12, 15, 12, 15, 12, 15, 12, 15, 12, 15] }}
+          transition={{
+            type: "tween",
+            duration: "6",
+            delay: "1"
+          }}
+        >
         <div className="flex justify-center">
         <button >
-            <FaArrowUp className="h-42 w-40 hover:scale-90" onClick={scrollToTop} 
+            <FaChevronUp className="hover:scale-90" onClick={scrollToTop} 
             style={{display: visible ? 'inline' : 'none'}} />
         </button>
         </div>
+        </motion.div>
 
-      <div className="flex justify-center">
+      <div className="flex justify-center pt-5">
       <div className="flex justify-center md:justify-start my-10 gap-16">
         <a
           className="hover:opacity-50 transition duration-500"
-          href="https://www.linkedin.com"
+          href="https://www.linkedin.com/in/hassan-yusuf-35a928214/"
           target="_blank"
           rel="noreferrer"
         >
@@ -47,7 +58,7 @@ const Footer = () => {
         </a>
         <a
           className="hover:opacity-50 transition duration-500"
-          href="https://www.github.com"
+          href="https://github.com/HassanY99"
           target="_blank"
           rel="noreferrer"
         >
@@ -55,7 +66,7 @@ const Footer = () => {
         </a>
         <a
           className="hover:opacity-50 transition duration-500"
-          href="https://www.instagram.com"
+          href="https://www.instagram.com/hassanyx"
           target="_blank"
           rel="noreferrer"
         >

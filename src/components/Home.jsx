@@ -59,9 +59,14 @@ const Home = ({ setSelectedPage }) => {
                 typewriter
                 
                 .typeString(`Web Developer`)
-                    
-                    //    .pauseFor(1000)
-                    //    .deleteChars(18)
+                .deleteAll()
+                .typeString("Frontend Developer")
+                .deleteAll()
+                .typeString("Backend Developer")
+                .deleteAll()
+                .typeString("Software Developer")
+                .deleteAll()
+                .typeString(`Web Developer`)
                 .start();
                 }}
                 />

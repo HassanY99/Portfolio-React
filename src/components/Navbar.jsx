@@ -8,7 +8,7 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
   return (
     <AnchorLink
       className={`${
-        selectedPage === lowerCasePage ? "text-yellow" : ""} hover:text-yellow transition duration-500`}
+        selectedPage === lowerCasePage ? "text-turq" : ""} hover:text-yellow transition duration-500`}
       href={`#${lowerCasePage}`}
       onClick={() => setSelectedPage(lowerCasePage)}
     >
@@ -20,11 +20,11 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
 const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
   const isDesktop = useMediaQuery("(min-width: 768px)");
-  const navbarBackground = isTopOfPage ? "" : "bg-deep-blue";
+  const navbarBackground = isTopOfPage ? "bg-deep-blue" : "bg-deep-blue";
   
 
   return (
-    <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-6`}>
+    <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-2`}>
       <div className="flex items-center justify-between mx-auto w-5/6">
       <img
                 alt="logo"
