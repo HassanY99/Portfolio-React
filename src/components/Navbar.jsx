@@ -25,10 +25,10 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 
   return (
     <nav className={`${navbarBackground} z-40 w-full fixed top-0`}>
-      <div className="flex items-center justify-between mx-auto w-5/6">
+      <div className="flex items-center justify-between mx-auto w-5/6 mt-1">
       <img
                 alt="logo"
-                className="hover:filter hover:scale-90 w-24 h-22"
+                className="hover:filter hover:scale-90 w-20 h-22"
                 src="assets/hy.PNG"
               />
         {/* <h4 className="font-playfair text-3xl font-bold">HY</h4> */}

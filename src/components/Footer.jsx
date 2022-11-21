@@ -35,7 +35,7 @@ const Footer = () => {
           animate={{ y: [12, 17, 12, 17, 12, 17, 12, 17, 12, 17, 12, 17, 12, 17, 12, 17, 12, 17, 12, 17] }}
           transition={{
             type: "spring",
-            repeat: 4,
+            repeat: 5,
             repeatType: "reverse",
             duration: "10",
             delay: "1"
