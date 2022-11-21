@@ -31,12 +31,16 @@ const Footer = () => {
         
         <motion.div
           initial={{ x: 0 }}
-          animate={{ y: [12, 15, 12, 15, 12, 15, 12, 15, 12, 15, 12, 15, 12, 15, 12, 15, 12, 15, 12, 15] }}
+          
+          animate={{ y: [12, 17, 12, 17, 12, 17, 12, 17, 12, 17, 12, 17, 12, 17, 12, 17, 12, 17, 12, 17] }}
           transition={{
-            type: "tween",
-            duration: "6",
+            type: "spring",
+            repeat: 4,
+            repeatType: "reverse",
+            duration: "10",
             delay: "1"
           }}
+          
         >
         <div className="flex justify-center">
         <button >
@@ -73,15 +77,7 @@ const Footer = () => {
           <img alt="instagram-link" src="../assets/instagram.png" />
         </a>
       </div>
-
-        {/* <div className="md:flex justify-center md:justify-between text-center ">
-          <p className="font-playfair font-semibold text-2xl text-yellow">
-            Hassan Yusuf
-          </p>
-          <p className="font-playfair text-md text-yellow">
-            ©2022 Yusuf. All Rights Reserved.
-          </p>
-        </div> */}
+      
       </div>
       <div className="flex justify-center">
             _________________________________________________________________________________
