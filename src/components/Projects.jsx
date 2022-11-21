@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
+import React from 'react';
 
 // Import Swiper styles
 import "swiper/swiper-bundle.min.css";
@@ -16,6 +17,8 @@ import "../index.css";
 
 const Projects = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
+  const navigationPrevRef = React.useRef(null)
+  const navigationNextRef = React.useRef(null)
   return (
     
     <section id="projects" className="pt-40 pb-48">
@@ -77,22 +80,6 @@ const Projects = () => {
                    </div>
          </SwiperSlide>
 
-         <SwiperSlide className="">
-                   <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                   <img class="rounded-t-lg" src="../assets/parking.png" alt=""/>
-                   </a>
-                   <div class="px-4 py-1 bg-white">
-                   <h5 class="text-black text-xl font-medium mb-2">Parker App</h5>
-                   <p class="text-stone-600 text-base mb-4">
-                   This is a full-stack web application that helps users find free parking in the busiest of streets.
-                   I developed this with 3 other team members using Javascript, Bootstrap, Nodejs, MySql and google location api was also used in order to create this web application.
-                   </p>
-                   <div className="my-3">
-                   <a type="button" target="_blank" href="https://parker-live.herokuapp.com/" rel="noreferrer" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red hover:shadow-lg focus:bg-red focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Live App</a>
-                   </div>
-                   
-                   </div>
-         </SwiperSlide>
 
          <SwiperSlide className="ml-6">
                    <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
@@ -109,7 +96,8 @@ const Projects = () => {
                    
                    </div>
          </SwiperSlide>
-               
+         
+      
          <SwiperSlide className="">
                    <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                    <img class="rounded-t-lg" src="../assets/fitness.png" alt=""/>
@@ -138,7 +126,8 @@ const Projects = () => {
         pagination={{
           clickable: true,
         }}
-        navigation={true}
+        grabCursor={true}
+        navigation={false}
         modules={[Pagination, Navigation]}
         className="rounded-lg shadow-lg "
       >
