@@ -61,28 +61,8 @@ const Projects = () => {
          modules={[Pagination, Navigation]}
          className="rounded-lg shadow-lg"
        >
- 
-         <SwiperSlide>
-         <div class="flex justify-center">
-              <div class="rounded-lg shadow-lg bg-white max-w-sm">
-                <a href="#!">
-                  <img class="rounded-t-lg" src="../assets/connect.png" alt=""/>
-                </a>
-                <div class="p-6">
-                  <h5 class="text-gray-900 text-xl font-medium mb-2">Connect</h5>
-                  <p class="text-gray-700 text-base mb-4">
-                  This is a Full-stack MERN web application where users from all over the world can share their portfolio, skills, educations and experiences with one another. 
-                  I used Reactjs, Nodejs, Expressjs, MongoDB, Tailwind and Bootstrap in order to create this web application.
-                  </p>
-                  <a type="button" target="_blank" href="https://connect.cyclic.app/" rel="noreferrer" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red hover:shadow-lg focus:bg-red focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Live App</a>
-                  <a type="button" target="_blank" href="https://github.com/HassanY99/MERN-Connect" rel="noreferrer" class=" inline-block px-6 py-2.5  text-red font-medium text-xs leading-tight uppercase hover:text-turq  focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Source Code</a>
-                   
-                </div>
-              </div>
-          </div>
-         </SwiperSlide>
 
-         <SwiperSlide>
+        <SwiperSlide>
                 <div class="flex justify-center">
                       <div class="rounded-lg shadow-lg bg-white max-w-sm">
                         <a href="#!">
@@ -101,8 +81,45 @@ const Projects = () => {
                   </div>
         </SwiperSlide>
 
-
-         <SwiperSlide>
+          <SwiperSlide>
+            <div class="flex justify-center">
+                  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                    <a href="#!">
+                      <img class="rounded-t-lg" src="../assets/parking.png" alt=""/>
+                    </a>
+                    <div class="p-6">
+                      <h5 class="text-gray-900 text-xl font-medium mb-2">Parker App</h5>
+                      <p class="text-gray-700 text-base mb-4">
+                      This is a full-stack web application that helps users find free parking in the busiest of streets. 
+                      I developed this with 3 other team members using Javascript, Bootstrap, Nodejs, Expressjs, MySql and google geo location api was also used in order to create this web application.
+                      </p>
+                      <a type="button" target="_blank" href="https://parker-live.herokuapp.com/" rel="noreferrer" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red hover:shadow-lg focus:bg-red focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Live App</a>
+                    </div>
+                  </div>
+              </div>
+         </SwiperSlide>
+         
+        <SwiperSlide>
+         <div class="flex justify-center">
+              <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                <a href="#!">
+                  <img class="rounded-t-lg" src="../assets/connect.png" alt=""/>
+                </a>
+                <div class="p-6">
+                  <h5 class="text-gray-900 text-xl font-medium mb-2">Connect</h5>
+                  <p class="text-gray-700 text-base mb-4">
+                  This is a Full-stack MERN web application where users from all over the world can share their portfolio, skills, educations and experiences with one another. 
+                  I used Reactjs, Nodejs, Expressjs, MongoDB, Tailwind and Bootstrap in order to create this web application.
+                  </p>
+                  <a type="button" target="_blank" href="https://connect.cyclic.app/" rel="noreferrer" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red hover:shadow-lg focus:bg-red focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Live App</a>
+                  <a type="button" target="_blank" href="https://github.com/HassanY99/MERN-Connect" rel="noreferrer" class=" inline-block px-6 py-2.5  text-red font-medium text-xs leading-tight uppercase hover:text-turq  focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Source Code</a>
+                   
+                </div>
+              </div>
+          </div>
+         </SwiperSlide>
+  
+        <SwiperSlide>
                       <div class="flex justify-center">
                           <div class="rounded-lg shadow-lg bg-white max-w-sm">
                                 <a href="#!">
@@ -120,26 +137,6 @@ const Projects = () => {
                             </div>
                       </div>
          </SwiperSlide>
-         
-      
-         <SwiperSlide>
-            <div class="flex justify-center">
-                  <div class="rounded-lg shadow-lg bg-white max-w-sm">
-                    <a href="#!">
-                      <img class="rounded-t-lg" src="../assets/parking.png" alt=""/>
-                    </a>
-                    <div class="p-6">
-                      <h5 class="text-gray-900 text-xl font-medium mb-2">Parker App</h5>
-                      <p class="text-gray-700 text-base mb-4">
-                      This is a full-stack web application that helps users find free parking in the busiest of streets. 
-                      I developed this with 3 other team members using Javascript, Bootstrap, Nodejs, Expressjs, MySql and google geo location api was also used in order to create this web application.
-                      </p>
-                      <a type="button" target="_blank" href="https://parker-live.herokuapp.com/" rel="noreferrer" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red hover:shadow-lg focus:bg-red focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Live App</a>
-                    </div>
-                  </div>
-              </div>
-         </SwiperSlide>
-  
        </Swiper>
        ) : (
         <Swiper

@@ -12,7 +12,7 @@ module.exports = {
         red: "#C62420",
         yellow: "#FDCC49",
         // grey: "#ededed",
-        burg: "#a22924",
+        burg: "#a62a24",
         turq: "#01949A",
         // 'gray': '#8492a6',
         "dark-grey": "#757575",
