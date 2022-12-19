@@ -62,72 +62,84 @@ const Projects = () => {
          className="rounded-lg shadow-lg"
        >
  
-         <SwiperSlide className="">
-                   <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                   <img class="rounded-t-lg" src="../assets/weather.png" alt=""/>
-                   </a>
-                   <div class="px-4 py-4 bg-white rounded-b-lg">
-                   <h5 class="text-black text-xl font-medium mb-2">Weather Dashboard</h5>
-                   <p class="text-stone-600 text-base mb-4">
-                   This is a simple web application that allows users to see weather outlook of multiple cities. This was achieved by using HTML, CSS, Javascript and OpenWeatherMap Api.
-                   </p>
-                   <a type="button" target="_blank" href="https://hassany99.github.io/weather-dashboard/" rel="noreferrer" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red hover:shadow-lg focus:bg-red focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Live App</a>
-                   <a type="button" target="_blank" href="https://github.com/HassanY99/weather-dashboard" rel="noreferrer" class=" inline-block px-6 py-2.5  text-red font-medium text-xs leading-tight uppercase hover:text-turq  focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Source Code</a>
+         <SwiperSlide>
+         <div class="flex justify-center">
+              <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                <a href="#!">
+                  <img class="rounded-t-lg" src="../assets/connect.png" alt=""/>
+                </a>
+                <div class="p-6">
+                  <h5 class="text-gray-900 text-xl font-medium mb-2">Connect</h5>
+                  <p class="text-gray-700 text-base mb-4">
+                  This is a Full-stack MERN web application where users from all over the world can share their portfolio, skills, educations and experiences with one another. 
+                  I used Reactjs, Nodejs, Expressjs, MongoDB, Tailwind and Bootstrap in order to create this web application.
+                  </p>
+                  <a type="button" target="_blank" href="https://connect.cyclic.app/" rel="noreferrer" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red hover:shadow-lg focus:bg-red focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Live App</a>
+                  <a type="button" target="_blank" href="https://github.com/HassanY99/MERN-Connect" rel="noreferrer" class=" inline-block px-6 py-2.5  text-red font-medium text-xs leading-tight uppercase hover:text-turq  focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Source Code</a>
                    
-                   </div>
+                </div>
+              </div>
+          </div>
          </SwiperSlide>
 
-         <SwiperSlide className="">
-                  <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                  <img class="rounded-t-lg" src="../assets/parking.png" alt=""/>
-                  </a>
-                  <div class="px-4 py-3 bg-white rounded-b-lg">
-                  <h5 class="text-black text-xl font-medium mb-2">Parker App</h5>
-                  <p class="text-stone-600 text-base mb-4">
-                  This is a full-stack web application that helps users find free parking in the busiest of streets. 
-                  I developed this with 3 other team members using Javascript, Bootstrap, Nodejs, MySql and google location api was also used in order to create this web application.
-                  </p>
-                  <a type="button" target="_blank" href="https://parker-live.herokuapp.com/" rel="noreferrer" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red hover:shadow-lg focus:bg-red focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Live App</a>
-                  
+         <SwiperSlide>
+                <div class="flex justify-center">
+                      <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                        <a href="#!">
+                          <img class="rounded-t-lg" src="../assets/pm.png" alt=""/>
+                        </a>
+                        <div class="p-6">
+                          <h5 class="text-gray-900 text-xl font-medium mb-2">Password Manager</h5>
+                          <p class="text-gray-700 text-base mb-4">
+                          This is a full-stack web application using Java Spring Boot, Angular and MySql which allows users to save all their passwords securely in one place.
+                          I used Java Spring Boot, Spring Security, JWT, AES encryption, Angular and MySql in order to create this web application.
+                          </p>
+                          <a type="button" target="_blank" href="http://ngpasswordmanager.s3-website.us-east-2.amazonaws.com/" rel="noreferrer" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red hover:shadow-lg focus:bg-red focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Live App</a>
+                          <a type="button" target="_blank" href="https://github.com/HassanY99/Password-Manager-App" rel="noreferrer" class=" inline-block px-6 py-2.5  text-red font-medium text-xs leading-tight uppercase hover:text-turq  focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Source Code</a>
+                        </div>
+                      </div>
                   </div>
         </SwiperSlide>
 
 
-         <SwiperSlide className="ml-6">
-                   <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                   <img class="rounded-t-lg" src="../assets/pm.png" alt=""/>
-                   </a>
-                   <div class="px-4 py-5 bg-white rounded-b-lg">
-                   <h5 class="text-black text-xl font-medium mb-2">Password Manager</h5>
-                   <p class="text-stone-600 text-base mb-4">
-                   This is a full-stack web application using Java Spring Boot, Angular and MySql which allows users to save all their passwords securely in one place.
-                   I used Java Spring Boot, Spring Security, JWT, AES encryption, Angular and MySql in order to create this web application.
-                   </p>
-                   <a type="button" target="_blank" href="http://ngpasswordmanager.s3-website.us-east-2.amazonaws.com/" rel="noreferrer" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red hover:shadow-lg focus:bg-red focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Live App</a>
-                   <a type="button" target="_blank" href="https://github.com/HassanY99/Password-Manager-App" rel="noreferrer" class=" inline-block px-6 py-2.5  text-red font-medium text-xs leading-tight uppercase hover:text-turq  focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Source Code</a>
-                   
-                   </div>
+         <SwiperSlide>
+                      <div class="flex justify-center">
+                          <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                                <a href="#!">
+                                  <img class="rounded-t-lg" src="../assets/spell.png" alt=""/>
+                                </a>
+                                <div class="p-6">
+                                  <h5 class="text-gray-900 text-xl font-medium mb-2">Spell-Checker</h5>
+                                  <p class="text-gray-700 text-base mb-4">
+                                  This program is written to correct wrong spelled words and provide the correct word from the dictionary. 
+                                  Given an input, the program should check to see if it exists in a dictionary of correctly spelled words.
+                                  This Java code checks for spelling mistakes in a word, sentence or in a file.
+                                  </p>
+                                  <a type="button" target="_blank" href="https://github.com/HassanY99/Spell-Checker" rel="noreferrer" class=" inline-block px-6 py-2.5  text-red font-medium text-xs leading-tight uppercase hover:text-turq  focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Source Code</a>
+                                </div>
+                            </div>
+                      </div>
          </SwiperSlide>
          
       
-         <SwiperSlide className="">
-                   <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                   <img class="rounded-t-lg" src="../assets/fitness.png" alt=""/>
-                   </a>
-                   <div class="px-4 py-10 bg-white rounded-b-lg">
-                   <h5 class="text-black text-xl font-medium mb-2">Fitness Tracker</h5>
-                   <p class="text-stone-600 text-base mb-4">
-                  This is a full-stack MERN web application where users can add excercises and see their activities.
-                   I used React, Nodejs, Expressjs and mongoDB in order to create this web application.
-                   </p>
-                   <a type="button" target="_blank" href="https://mern-fitness-tracker-deploy.herokuapp.com/" rel="noreferrer" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red hover:shadow-lg focus:bg-red focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Live App</a>
-                   <a type="button" target="_blank" href="https://github.com/HassanY99/MERN-Fitness-Tracker" rel="noreferrer" class=" inline-block px-6 py-2.5  text-red font-medium text-xs leading-tight uppercase hover:text-turq  focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Source Code</a>
-                   
-                   </div>
+         <SwiperSlide>
+            <div class="flex justify-center">
+                  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                    <a href="#!">
+                      <img class="rounded-t-lg" src="../assets/parking.png" alt=""/>
+                    </a>
+                    <div class="p-6">
+                      <h5 class="text-gray-900 text-xl font-medium mb-2">Parker App</h5>
+                      <p class="text-gray-700 text-base mb-4">
+                      This is a full-stack web application that helps users find free parking in the busiest of streets. 
+                      I developed this with 3 other team members using Javascript, Bootstrap, Nodejs, Expressjs, MySql and google geo location api was also used in order to create this web application.
+                      </p>
+                      <a type="button" target="_blank" href="https://parker-live.herokuapp.com/" rel="noreferrer" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red hover:shadow-lg focus:bg-red focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Live App</a>
+                    </div>
+                  </div>
+              </div>
          </SwiperSlide>
-         
- 
-
+  
        </Swiper>
        ) : (
         <Swiper
@@ -144,73 +156,87 @@ const Projects = () => {
         modules={[Pagination, Navigation]}
         className="rounded-lg shadow-lg "
       >
-        <SwiperSlide className="">
-                  <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                  <img class="rounded-t-lg" src="../assets/pm.png" alt=""/>
-                  </a>
-                  <div class="px-4 py-4 bg-white rounded-b-lg">
-                  <h5 class="text-black text-xl font-medium mb-2">Password Manager</h5>
-                  <p class="text-stone-600 text-base mb-4">
-                  This is a full-stack web application using Java Spring Boot, Angular and MySql which allows users to save all their passwords securely in one place.
-                  I used Java Spring Boot, Spring Security, JWT, AES encryption, Angular and MySql in order to create this web application.
+        <SwiperSlide>
+         <div class="flex justify-center">
+              <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                <a href="#!">
+                  <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" alt=""/>
+                </a>
+                <div class="p-6">
+                  <h5 class="text-gray-900 text-xl font-medium mb-2">Connect</h5>
+                  <p class="text-gray-700 text-base mb-4">
+                  This is a Full-stack MERN web application where users from all over the world can share their portfolio, skills, educations and experiences with one another. 
+                  I used Reactjs, Nodejs, Expressjs, MongoDB, Tailwind and Bootstrap in order to create this web application.
                   </p>
-                  <a type="button" target="_blank" href="http://ngpasswordmanager.s3-website.us-east-2.amazonaws.com/" rel="noreferrer" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red hover:shadow-lg focus:bg-red focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Live App</a>
-                  <a type="button" target="_blank" href="https://github.com/HassanY99/Password-Manager-App" rel="noreferrer" class=" inline-block px-6 py-2.5  text-red font-medium text-xs leading-tight uppercase hover:text-turq  focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Source Code</a>
-                  
+                  <a type="button" target="_blank" href="https://connect.cyclic.app/" rel="noreferrer" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red hover:shadow-lg focus:bg-red focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Live App</a>
+                  <a type="button" target="_blank" href="https://github.com/HassanY99/MERN-Connect" rel="noreferrer" class=" inline-block px-6 py-2.5  text-red font-medium text-xs leading-tight uppercase hover:text-turq  focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Source Code</a>
+                   
+                </div>
+              </div>
+          </div>
+         </SwiperSlide>
+
+         <SwiperSlide>
+                <div class="flex justify-center">
+                      <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                        <a href="#!">
+                          <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" alt=""/>
+                        </a>
+                        <div class="p-6">
+                          <h5 class="text-gray-900 text-xl font-medium mb-2">Password Manager</h5>
+                          <p class="text-gray-700 text-base mb-4">
+                          This is a full-stack web application using Java Spring Boot, Angular and MySql which allows users to save all their passwords securely in one place.
+                          I used Java Spring Boot, Spring Security, JWT, AES encryption, Angular and MySql in order to create this web application.
+                          </p>
+                          <a type="button" target="_blank" href="http://ngpasswordmanager.s3-website.us-east-2.amazonaws.com/" rel="noreferrer" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red hover:shadow-lg focus:bg-red focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Live App</a>
+                          <a type="button" target="_blank" href="https://github.com/HassanY99/Password-Manager-App" rel="noreferrer" class=" inline-block px-6 py-2.5  text-red font-medium text-xs leading-tight uppercase hover:text-turq  focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Source Code</a>
+                        </div>
+                      </div>
                   </div>
         </SwiperSlide>
 
-        <SwiperSlide className="">
-                  <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                  <img class="rounded-t-lg" src="../assets/fitness.png" alt=""/>
-                  </a>
-                  <div class="px-4 py-9 bg-white rounded-b-lg">
-                  <h5 class="text-black text-xl font-medium mb-2">Fitness Tracker</h5>
-                  <p class="text-stone-600 text-base mb-4">
-                 This is a full-stack MERN web application where users can add excercises and see their activities.
-                  I used React, Nodejs, Expressjs and mongoDB in order to create this web application.
-                  </p>
-                  <a type="button" target="_blank" href="https://mern-fitness-tracker-deploy.herokuapp.com/" rel="noreferrer" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red hover:shadow-lg focus:bg-red focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Live App</a>
-                  <a type="button" target="_blank" href="https://github.com/HassanY99/MERN-Fitness-Tracker" rel="noreferrer" class=" inline-block px-6 py-2.5  text-red font-medium text-xs leading-tight uppercase hover:text-turq  focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Source Code</a>
-                  
-                  </div>
-        </SwiperSlide>
 
-        <SwiperSlide className="">
-                  <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                  <img class="rounded-t-lg" src="../assets/parking.png" alt=""/>
-                  </a>
-                  <div class="px-4 py-1 bg-white rounded-b-lg">
-                  <h5 class="text-black text-xl font-medium mb-2">Parker App</h5>
-                  <p class="text-stone-600 text-base mb-4">
-                  This is a full-stack web application that helps users find free parking in the busiest of streets. 
-                  I developed this with 3 other team members using Javascript, Bootstrap, Nodejs, MySql and google location api was also used in order to create this web application.
-                  </p>
-                  <a type="button" target="_blank" href="https://parker-live.herokuapp.com/" rel="noreferrer" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red hover:shadow-lg focus:bg-red focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Live App</a>
-                  
+         <SwiperSlide>
+                      <div class="flex justify-center">
+                          <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                                <a href="#!">
+                                  <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" alt=""/>
+                                </a>
+                                <div class="p-6">
+                                  <h5 class="text-gray-900 text-xl font-medium mb-2">Spell-Checker</h5>
+                                  <p class="text-gray-700 text-base mb-4">
+                                  This program is written to correct wrong spelled words and provide the correct word from the dictionary. 
+                                  Given an input, the program should check to see if it exists in a dictionary of correctly spelled words.
+                                  This Java code checks for spelling mistakes in a word, sentence or in a file.
+                                  </p>
+                                  <a type="button" target="_blank" href="https://github.com/HassanY99/Spell-Checker" rel="noreferrer" class=" inline-block px-6 py-2.5  text-red font-medium text-xs leading-tight uppercase hover:text-turq  focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Source Code</a>
+                                </div>
+                            </div>
+                      </div>
+         </SwiperSlide>
+         
+      
+         <SwiperSlide>
+            <div class="flex justify-center">
+                  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                    <a href="#!">
+                      <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" alt=""/>
+                    </a>
+                    <div class="p-6">
+                      <h5 class="text-gray-900 text-xl font-medium mb-2">Parker App</h5>
+                      <p class="text-gray-700 text-base mb-4">
+                      This is a full-stack web application that helps users find free parking in the busiest of streets. 
+                      I developed this with 3 other team members using Javascript, Bootstrap, Nodejs, Expressjs, MySql and google geo location api was also used in order to create this web application.
+                      </p>
+                      <a type="button" target="_blank" href="https://parker-live.herokuapp.com/" rel="noreferrer" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red hover:shadow-lg focus:bg-red focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Live App</a>
+                    </div>
                   </div>
-        </SwiperSlide>
-
-        <SwiperSlide className="">
-                  <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-                  <img class="rounded-t-lg" src="../assets/weather.png" alt=""/>
-                  </a>
-                  <div class="px-4 py-4 bg-white rounded-b-lg">
-                  <h5 class="text-black text-xl font-medium mb-2">Weather Dashboard</h5>
-                  <p class="text-stone-600 text-base mb-4">
-                  This is a simple web application that allows users to see weather outlook of multiple cities. This was achieved by using HTML, CSS, Javascript and OpenWeatherMap Api.
-                  </p>
-                  <a type="button" target="_blank" href="https://hassany99.github.io/weather-dashboard/" rel="noreferrer" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red hover:shadow-lg focus:bg-red focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Live App</a>
-                  <a type="button" target="_blank" href="https://github.com/HassanY99/weather-dashboard" rel="noreferrer" class=" inline-block px-6 py-2.5  text-red font-medium text-xs leading-tight uppercase hover:text-turq  focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Source Code</a>
-                  
-                  </div>
-        </SwiperSlide>
+              </div>
+         </SwiperSlide>
 
 
       </Swiper>
        )}
-          
-         
        
       </div>
     </section> 
