@@ -30,6 +30,7 @@ const Home = ({ setSelectedPage }) => {
               className="z-10 w-full max-w-[250px] md:max-w-[250px]"
               src="assets/hydev.PNG"
             />
+            
           )}
         </div>
 
