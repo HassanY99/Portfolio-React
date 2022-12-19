@@ -25,9 +25,9 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7 w-400">
-            I am self-driven Web Developer with knowledge in both client and server-side development to create dynamic websites and web applications.
+            I am self-driven Web Developer with knowledge in both client and server-side development. I am experienced in building backend API's to working with databases and also capable of creating dynamic websites and web applications.
              I have the most experience with Java and Javascript. Through various projects, I have gained an in-depth understanding of multiple web frameworks 
-             including Spring Boot, React, Angular, Node, Express and many others which I also use daily in my current position. I have strong foundations in programming concepts including data structures, algorithms, 
+             including Spring Boot, Spring Security, React, Angular, Express and many others which I also use daily in my current position. I have strong foundations in programming concepts including data structures, algorithms, 
              and object oriented design.
           </p>
 

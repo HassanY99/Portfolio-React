@@ -46,10 +46,10 @@ const Home = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl font-playfair z-10 text-center md:text-start">
-          Hi! I'm <span className="text-turq">Hassan</span>
+          <p className="text-6xl text-gray-400 font-playfair z-10 text-center md:text-start">
+          Hi! I'm <span className="text-gray-200">Hassan</span>
             <span
-              className="xs:relative xs:text-red xs:font-semibold z-20
+              className="xs:relative xs:text-burg xs:font-semibold z-20
               before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
             >
                 <Typewriter

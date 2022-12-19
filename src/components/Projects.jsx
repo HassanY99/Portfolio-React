@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
-import React from 'react';
 
 // Import Swiper styles
 import "swiper/swiper-bundle.min.css";
@@ -17,8 +16,6 @@ import "../index.css";
 
 const Projects = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
-  const navigationPrevRef = React.useRef(null)
-  const navigationNextRef = React.useRef(null)
   return (
     
     <section id="projects" className="pt-40 pb-48">
@@ -69,10 +66,10 @@ const Projects = () => {
                    <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                    <img class="rounded-t-lg" src="../assets/weather.png" alt=""/>
                    </a>
-                   <div class="px-4 py-5 bg-white">
+                   <div class="px-4 py-4 bg-white rounded-b-lg">
                    <h5 class="text-black text-xl font-medium mb-2">Weather Dashboard</h5>
                    <p class="text-stone-600 text-base mb-4">
-                   This is a simple web application that allows users to see weather outlook of multiple cities. This was achieved by using Html, CSS, Javascript and OpenWeatherMap Api.
+                   This is a simple web application that allows users to see weather outlook of multiple cities. This was achieved by using HTML, CSS, Javascript and OpenWeatherMap Api.
                    </p>
                    <a type="button" target="_blank" href="https://hassany99.github.io/weather-dashboard/" rel="noreferrer" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red hover:shadow-lg focus:bg-red focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Live App</a>
                    <a type="button" target="_blank" href="https://github.com/HassanY99/weather-dashboard" rel="noreferrer" class=" inline-block px-6 py-2.5  text-red font-medium text-xs leading-tight uppercase hover:text-turq  focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Source Code</a>
@@ -80,12 +77,27 @@ const Projects = () => {
                    </div>
          </SwiperSlide>
 
+         <SwiperSlide className="">
+                  <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                  <img class="rounded-t-lg" src="../assets/parking.png" alt=""/>
+                  </a>
+                  <div class="px-4 py-3 bg-white rounded-b-lg">
+                  <h5 class="text-black text-xl font-medium mb-2">Parker App</h5>
+                  <p class="text-stone-600 text-base mb-4">
+                  This is a full-stack web application that helps users find free parking in the busiest of streets. 
+                  I developed this with 3 other team members using Javascript, Bootstrap, Nodejs, MySql and google location api was also used in order to create this web application.
+                  </p>
+                  <a type="button" target="_blank" href="https://parker-live.herokuapp.com/" rel="noreferrer" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red hover:shadow-lg focus:bg-red focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Live App</a>
+                  
+                  </div>
+        </SwiperSlide>
+
 
          <SwiperSlide className="ml-6">
                    <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                    <img class="rounded-t-lg" src="../assets/pm.png" alt=""/>
                    </a>
-                   <div class="px-4 py-5 bg-white">
+                   <div class="px-4 py-5 bg-white rounded-b-lg">
                    <h5 class="text-black text-xl font-medium mb-2">Password Manager</h5>
                    <p class="text-stone-600 text-base mb-4">
                    This is a full-stack web application using Java Spring Boot, Angular and MySql which allows users to save all their passwords securely in one place.
@@ -102,7 +114,7 @@ const Projects = () => {
                    <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                    <img class="rounded-t-lg" src="../assets/fitness.png" alt=""/>
                    </a>
-                   <div class="px-4 py-10 bg-white">
+                   <div class="px-4 py-10 bg-white rounded-b-lg">
                    <h5 class="text-black text-xl font-medium mb-2">Fitness Tracker</h5>
                    <p class="text-stone-600 text-base mb-4">
                   This is a full-stack MERN web application where users can add excercises and see their activities.
@@ -113,6 +125,7 @@ const Projects = () => {
                    
                    </div>
          </SwiperSlide>
+         
  
 
        </Swiper>
@@ -126,8 +139,8 @@ const Projects = () => {
         pagination={{
           clickable: true,
         }}
-        grabCursor={true}
         navigation={false}
+        grabCursor={true}
         modules={[Pagination, Navigation]}
         className="rounded-lg shadow-lg "
       >
@@ -135,7 +148,7 @@ const Projects = () => {
                   <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                   <img class="rounded-t-lg" src="../assets/pm.png" alt=""/>
                   </a>
-                  <div class="px-4 py-4 bg-white">
+                  <div class="px-4 py-4 bg-white rounded-b-lg">
                   <h5 class="text-black text-xl font-medium mb-2">Password Manager</h5>
                   <p class="text-stone-600 text-base mb-4">
                   This is a full-stack web application using Java Spring Boot, Angular and MySql which allows users to save all their passwords securely in one place.
@@ -151,7 +164,7 @@ const Projects = () => {
                   <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                   <img class="rounded-t-lg" src="../assets/fitness.png" alt=""/>
                   </a>
-                  <div class="px-4 py-9 bg-white">
+                  <div class="px-4 py-9 bg-white rounded-b-lg">
                   <h5 class="text-black text-xl font-medium mb-2">Fitness Tracker</h5>
                   <p class="text-stone-600 text-base mb-4">
                  This is a full-stack MERN web application where users can add excercises and see their activities.
@@ -167,7 +180,7 @@ const Projects = () => {
                   <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                   <img class="rounded-t-lg" src="../assets/parking.png" alt=""/>
                   </a>
-                  <div class="px-4 py-1 bg-white">
+                  <div class="px-4 py-1 bg-white rounded-b-lg">
                   <h5 class="text-black text-xl font-medium mb-2">Parker App</h5>
                   <p class="text-stone-600 text-base mb-4">
                   This is a full-stack web application that helps users find free parking in the busiest of streets. 
@@ -182,10 +195,10 @@ const Projects = () => {
                   <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
                   <img class="rounded-t-lg" src="../assets/weather.png" alt=""/>
                   </a>
-                  <div class="px-4 py-4 bg-white">
+                  <div class="px-4 py-4 bg-white rounded-b-lg">
                   <h5 class="text-black text-xl font-medium mb-2">Weather Dashboard</h5>
                   <p class="text-stone-600 text-base mb-4">
-                  This is a simple web application that allows users to see weather outlook of multiple cities. This was achieved by using Html, CSS, Javascript and OpenWeatherMap Api.
+                  This is a simple web application that allows users to see weather outlook of multiple cities. This was achieved by using HTML, CSS, Javascript and OpenWeatherMap Api.
                   </p>
                   <a type="button" target="_blank" href="https://hassany99.github.io/weather-dashboard/" rel="noreferrer" class=" inline-block px-6 py-2.5 bg-turq text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red hover:shadow-lg focus:bg-red focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Live App</a>
                   <a type="button" target="_blank" href="https://github.com/HassanY99/weather-dashboard" rel="noreferrer" class=" inline-block px-6 py-2.5  text-red font-medium text-xs leading-tight uppercase hover:text-turq  focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Source Code</a>
