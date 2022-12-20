@@ -30,6 +30,8 @@ const Home = ({ setSelectedPage }) => {
               className="z-10 w-full max-w-[250px] md:max-w-[250px]"
               src="assets/hydev.PNG"
             />
+
+            
             
           )}
         </div>
@@ -50,7 +52,7 @@ const Home = ({ setSelectedPage }) => {
           <p className="text-6xl text-gray-400 font-playfair z-10 text-center md:text-start">
           Hi! I'm <span className="text-gray-200">Hassan</span>
             <span
-              className="xs:relative xs:text-burg xs:font-semibold text-[56px] z-20
+              className="xs:relative text-burg xs:font-semibold text-[56px] z-20
               before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
             >
                 <Typewriter
