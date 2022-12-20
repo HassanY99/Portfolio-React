@@ -25,7 +25,7 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7 w-400">
-            I am self-driven Web Developer with knowledge in both client and server-side development. I am experienced in building backend API's to working with databases and also capable of creating dynamic websites and web applications.
+            I am self-driven Web Developer with knowledge in both client and server-side development. I am experienced in building backend API's to working with databases and also capable of creating dynamic websites using frontend frameworks.
              I have the most experience with Java and Javascript. Through various projects, I have gained an in-depth understanding of multiple web frameworks 
              including Spring Boot, Spring Security, React, Angular, Express and many others which I also use daily in my current position. I have strong foundations in programming concepts including data structures, algorithms, 
              and object oriented design.
@@ -40,7 +40,7 @@ const MySkills = () => {
             </p>
             <LineGradient width="w-1/3 ml-20" />
             <p className="mt-2 mb-2 w-400">
-            <span className="text-green-600">Backend</span> - Java, Spring Boot, Spring MVC, Spring Security, JPA, NodeJs, Express, MySQL, MongoDB and RESTful API
+            <span className="text-green-600">Backend</span> - Java, Spring Boot, Spring MVC, Spring Security, JPA, NodeJs, Express, MySQL, MongoDB, GraphQL and RESTful API.
             </p>
             <LineGradient width="w-1/3 ml-20" />
             <p className="mt-2 mb-2 w-400">

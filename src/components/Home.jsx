@@ -50,7 +50,7 @@ const Home = ({ setSelectedPage }) => {
           <p className="text-6xl text-gray-400 font-playfair z-10 text-center md:text-start">
           Hi! I'm <span className="text-gray-200">Hassan</span>
             <span
-              className="xs:relative xs:text-burg xs:font-semibold z-20
+              className="xs:relative xs:text-burg xs:font-semibold text-[56px] z-20
               before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
             >
                 <Typewriter
@@ -96,7 +96,7 @@ const Home = ({ setSelectedPage }) => {
             className="bg-gradient-to-r from-indigo-500 to-teal-500 hover:bg-gradient-colorful text-deep-blue rounded-sm py-3 px-7 font-semibold
              hover:text-white transition duration-500"
              target="_blank"
-            href="https://drive.google.com/file/d/15UyieGY8xrOnrKhXeZ_pondiRDXmUJap/view?usp=sharing" rel="noreferrer"
+            href="https://drive.google.com/file/d/18O_Zr6dSs2YfgsjAzKNB4m7kq8ozBmoNWuMQ90oLceI/view?usp=sharing" rel="noreferrer"
           >
             Resume
           </a>
