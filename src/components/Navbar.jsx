@@ -29,7 +29,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
       <img
                 alt="logo"
                 className="hover:filter hover:scale-90 w-20 h-22"
-                src="assets/hy.PNG"
+                src="../assets/hy.png"
               />
         {/* <h4 className="font-playfair text-3xl font-bold">HY</h4> */}
 
