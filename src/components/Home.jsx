@@ -98,7 +98,7 @@ const Home = ({ setSelectedPage }) => {
             className="bg-gradient-to-r from-indigo-500 to-teal-500 hover:bg-gradient-colorful text-deep-blue rounded-sm py-3 px-7 font-semibold
              hover:text-white transition duration-500"
              target="_blank"
-            href="https://drive.google.com/file/d/18O_Zr6dSs2YfgsjAzKNB4m7kq8ozBmoNWuMQ90oLceI/view?usp=sharing" rel="noreferrer"
+            href="https://drive.google.com/file/d/18O_Zr6dSs2YfgsjAzKNB4m7kq8ozBmoNWuMQ90oLceI/edit?usp=sharing" rel="noreferrer"
           >
             Resume
           </a>
