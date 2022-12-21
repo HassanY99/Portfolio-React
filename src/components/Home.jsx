@@ -77,10 +77,10 @@ const Home = ({ setSelectedPage }) => {
             </span>
           </p> ) : (
 
-              <p className="text-4xl text-dark-gray font-playfair z-10 text-center md:text-start">
+              <p className="text-5xl text-dark-gray font-playfair z-10 text-center md:text-start">
               Hi! I'm <span className="text-light-gray">Hassan</span>
                 <span
-                  className="xs:relative text-burg xs:font-semibold text-3xl z-20
+                  className="xs:relative text-burg xs:font-semibold text-4xl z-20
                   before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
                 >
                     <Typewriter
