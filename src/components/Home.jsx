@@ -37,7 +37,7 @@ const Home = ({ setSelectedPage }) => {
         </div>
 
         {/* MAIN TEXT */}
-      <div className="z-30 basis-2/5 mt-12 md:mt-32">
+      <div className="z-30 basis-4/6 mt-12 md:mt-32">
         {/* HEADINGS */}
         <motion.div
           initial="hidden"
@@ -49,10 +49,11 @@ const Home = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl text-gray-400 font-playfair z-10 text-center md:text-start">
-          Hi! I'm <span className="text-gray-200">Hassan</span>
+          {isAboveLarge ? (
+          <p className="text-6xl text-dark-gray font-playfair z-10 text-center md:text-start">
+          Hi! I'm <span className="text-light-gray">Hassan</span>
             <span
-              className="xs:relative text-burg xs:font-semibold text-[56px] z-20
+              className="xs:relative text-burg xs:font-semibold text-6xl z-20
               before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
             >
                 <Typewriter
@@ -74,7 +75,35 @@ const Home = ({ setSelectedPage }) => {
                 }}
                 />
             </span>
-          </p>
+          </p> ) : (
+
+              <p className="text-4xl text-dark-gray font-playfair z-10 text-center md:text-start">
+              Hi! I'm <span className="text-light-gray">Hassan</span>
+                <span
+                  className="xs:relative text-burg xs:font-semibold text-3xl z-20
+                  before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
+                >
+                    <Typewriter
+
+                    onInit={(typewriter)=> {
+
+                    typewriter
+                    
+                    .typeString(`Web Developer`)
+                    .deleteAll()
+                    .typeString("Frontend Developer")
+                    .deleteAll()
+                    .typeString("Backend Developer")
+                    .deleteAll()
+                    .typeString("Software Developer")
+                    .deleteAll()
+                    .typeString(`Web Developer`)
+                    .start();
+                    }}
+                    />
+                </span>
+              </p>
+          )}
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
             I am a Full-Stack Web Developer with enthusiasm and focus on building scalable applications. I am passionate about building reliable software, creating effective solutions and 
