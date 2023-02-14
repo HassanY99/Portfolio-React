@@ -36,12 +36,13 @@ const MySkills = () => {
             Tech <span className="text-blue">Stack</span>
           </p>
           <div>_______________________</div>
+          
           <p className="mt-5 mb-2 w-400">
             <span className="text-yellow">Frontend</span> - HTML5, CSS3, JavaScript, ReactJS, AngularJS, jQuery, Bootstrap, Tailwind, Handelbars.js and JSP.
             </p>
             <LineGradient width="w-1/3 ml-20" />
             <p className="mt-2 mb-2 w-400">
-            <span className="text-green-600">Backend</span> - Java, Spring Boot, Spring MVC, Spring Security, JPA, NodeJs, Express, MySQL, MongoDB, GraphQL and RESTful API.
+            <span className="text-green-600">Backend</span> - Python, Java, Spring Boot, Spring MVC, Spring Security, JPA, NodeJs, Express, MySQL, MongoDB, GraphQL and RESTful API.
             </p>
             <LineGradient width="w-1/3 ml-20" />
             <p className="mt-2 mb-2 w-400">

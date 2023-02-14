@@ -17,6 +17,18 @@ const SkillsIcons = () => {
         <div
           className="hover:opacity-50 transition duration-500"
         >
+          <img alt="react" src="../assets/react.png" />
+        </div>
+
+        <div
+          className="hover:opacity-50 transition duration-500"
+        >
+          <img className="w-18 h-16" alt="node" src="../assets/angular.png" />
+        </div>
+
+        <div
+          className="hover:opacity-50 transition duration-500"
+        >
           <img className="w-18 h-16 rounded-full" alt="javascript" src="../assets/javascript.png" />
         </div>
 
@@ -29,19 +41,13 @@ const SkillsIcons = () => {
         <div
           className="hover:opacity-50 transition duration-500"
         >
-          <img alt="react" src="../assets/react.png" />
+          <img className="w-12 h-15 mt-3" alt="tailwind" src="../assets/python.png" />
         </div>
 
         <div
           className="hover:opacity-50 transition duration-500"
         >
           <img className="w-18 h-16" alt="node" src="../assets/node.png" />
-        </div>
-
-        <div
-          className="hover:opacity-50 transition duration-500"
-        >
-          <img className="w-18 h-16" alt="node" src="../assets/angular.png" />
         </div>
 
         <div
@@ -72,6 +78,24 @@ const SkillsIcons = () => {
           className="hover:opacity-50 transition duration-500"
         >
           <img className="w-18 h-8 mt-3" alt="tailwind" src="../assets/tailwind.png" />
+        </div>
+
+        <div
+          className="hover:opacity-50 transition duration-500"
+        >
+          <img className="w-12 h-15 mt-3 bg-green-600" alt="tailwind" src="../assets/selenium.png" />
+        </div>
+
+        <div
+          className="hover:opacity-50 transition duration-500"
+        >
+          <img className="w-16 h-19 mt-3" alt="tailwind" src="../assets/pandas.png" />
+        </div>
+
+        <div
+          className="hover:opacity-50 transition duration-500"
+        >
+          <img className="w-16 h-18 mt-6 ml-1" alt="tailwind" src="../assets/numpy.png" />
         </div>
       </div>
     );
