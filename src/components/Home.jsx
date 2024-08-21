@@ -21,14 +21,14 @@ const Home = ({ setSelectedPage }) => {
               <img
                 alt="profile"
                 className="hover:filter hover:scale-90 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px] rounded-full "
-                src="assets/hydev.PNG"
+                src="../assets/profile.png"
               />
             </div>
           ) : (
             <img
               alt="profile"
               className="z-10 w-full max-w-[250px] md:max-w-[250px]"
-              src="assets/hydev.PNG"
+              src="../assets/profile.png"
             />
 
             

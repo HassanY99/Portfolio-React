@@ -301,7 +301,6 @@ const Projects = () => {
                       </div>
          </SwiperSlide>
 
-
       </Swiper>
        )}
        
