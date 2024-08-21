@@ -5,7 +5,7 @@
   ## Description
 
   This portfolio was created using my knowledge of React and Tailwind. My portfolio contains section about my skills, projects and further how to contact me. My resume     is also linked to my portfolio and email which is a great way to get in touch with me.
-  Link of live portfolio: [Live App](https://portfolio-react-hassany99.vercel.app/)
+  Link of live portfolio: [Live App](https://hassancodes.com/)
 
   ## Table of Contents
   - [Installation](#installation)
